@@ -1,0 +1,50 @@
+{
+  "bhai ye hai": "let",
+  "sun bhai": "let",
+
+  "nalla": null,
+  "sahi": true,
+  "galat": false,
+  "bol bhai(": "log(",
+  "bol bhai (": "log(",
+
+  "agar bhai": "if",
+  "warna bhai": "else",
+
+  "jab tak bhai": "while",
+
+  "agla dekh bhai": "continue",
+  "bas kar bhai": "break",
+  "dena bhai(": "requirejs(",
+  "dena bhai (": "requirejs(",
+
+  "bata bhai": "async function",
+  "bhai puch": "await input.text",
+  "bhai tick": "await input.checkboxes",
+
+  "try kar bhai": "try",
+  "pakad bhai": "catch",
+  "sab theek hai bhai": "finally",
+  "array bhai": "",
+
+  "pata nai bhai": "undefined",
+  "ya fir bhai": "else if",
+  "nikal bhai": "return",
+  "pakka ye hai": "const",
+  "bhai ek kaam kar": "function",
+  "ye kar bhai": "",
+
+  "bhai thoda ruk": " setTimeout",
+  "kuch nahi": " undefined",
+
+  "bhai dekh": "switch",
+  "agar": "case",
+  "nhi to": "default",
+  "kaisa hai bhai": "typeof",
+  "naya bana bhai": "new",
+  "chal bhag bhai": "delete",
+  "vella": "var",
+
+  "hi bhai": "",
+  "bye bhai": ""
+}

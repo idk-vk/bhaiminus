@@ -1,0 +1,108 @@
+//HERE ARE SOME EXAMPLES
+
+//Variables
+pakka ye hai constttt = 10;  //constant
+//or
+bhai ye hai a = 10;   //variable
+//or
+sun bhai c = "yo";  //variable
+//or
+vella p = "I am global"; //vella is var
+
+
+//Data types
+sun bhai k = sahi;
+sun bhai b = galat;
+sun bhai n = nalla; //null
+sun bhai d = pata nai bhai; //undefined
+sun bhai t = kuch nahi; //undefined
+
+//Console log
+bol bhai(k);
+
+//Condition
+bhai ye hai gullu = 10;
+agar bhai (gullu < 25) {
+bol bhai ("gullu is less than 25");
+} 
+ya fir bhai(gullu == 100){
+  bol bhai ("gullu tu bada bhai hai");
+
+}
+warna bhai {
+bol bhai ("gullu is greater than or equal to 25");
+}
+
+//Loop
+
+bhai ye hai looper = 0;
+jab tak bhai (looper < 10) {
+looper += 1;
+agar bhai (looper == 5) {
+bol bhai ("andar se bol bhai ", looper);
+agla dekh bhai;
+}
+agar bhai (looper == 6) {
+bas kar bhai;
+}
+bol bhai (looper);
+}
+bol bhai ("done");
+
+//Require a module
+dena bhai('fs','filesystem');
+
+//typeof
+bol bhai(kaisa hai bhai 'string');
+
+//Switch case
+bhai dekh (a) {
+    agar "morning":
+        drink = "Tea";
+        bas kar bhai;
+    agar "evening":
+        drink = "Shake";
+        bas kar bhai;
+    nhi to:
+        drink="Water";
+ }
+
+
+//Function     
+bhai ek kaam kar suna(){
+  bol bhai('kaisa hai sab kuch');
+}
+
+ye kar bhai suna();   //function call
+
+
+//Set time out
+bhai ek kaam kar wait(){
+  bol bhai(' ');
+
+  bol bhai('ye der se aya na, kyunki time out hai');
+}
+bhai thoda ruk(wait, 5500);
+
+
+
+//Array
+bol bhai(array bhai [1,2,3])
+
+
+//Take user input
+
+bata bhai age(){
+  sun bhai age = bhai puch('what is your age')
+  agar bhai(age<30){
+  bol bhai('aap to young ho bhai')
+  } warna bhai {
+  bol bhai('age is just a number bhai')
+  }
+}
+
+ye kar bhai age();
+
+
+//return
+nikal bhai(100);

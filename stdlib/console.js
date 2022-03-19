@@ -1,13 +1,17 @@
 #! /usr/bin/env node
+
 var fs = require("fs");
 var input = require("input");
-let kk = fs.readFileSync(loc,
-            {encoding:'utf8', flag:'r'});
- 
+
+// console.log(process.argv);
+let loc = process.argv[2];
+let kk = fs.readFileSync(loc, { encoding: "utf8", flag: "r" });
+
 // Display the file data
 // console.log(kk);
 //required string
- kk = `var input = require('input');
+kk =
+  `var input = require('input');
 function requirejs (module,variable) {
 var variable = require(module);
 }
@@ -21,22 +25,22 @@ var variable = require(module);
  }
 
  }
- `+ kk;
+ ` + kk;
 
 //Interpretor
 //Cleaning string
-kk = kk.replace(/ +(?= )/g, '');
+kk = kk.replace(/ +(?= )/g, "");
 
 function interpret(bhailang, js) {
   kk = kk.split(bhailang).join(js);
   // console.log(kk);
-} 
-
+}
+const mapping = require("../langmapping.json");
 
 // write loop here
-
-
-
+for (var key in mapping) {
+  interpret(key,mapping[key]);
+}
 
 fs.writeFile("newfile.js", kk, function (err) {
   if (err) throw err;
