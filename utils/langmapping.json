@@ -5,8 +5,8 @@
   "nalla": null,
   "sahi": true,
   "galat": false,
-  "bol bhai(": "log(",
-  "bol bhai (": "log(",
+  "bol bhai(": "bpp.standard_lib.log(",
+  "bol bhai (": "bpp.standard_lib.log(",
 
   "agar bhai": "if",
   "warna bhai": "else",
@@ -19,8 +19,8 @@
   "dena bhai (": "requirejs(",
 
   "bata bhai": "async function",
-  "bhai puch": "await input.text",
-  "bhai tick": "await input.checkboxes",
+  "bhai puch": "await bpp.standard_lib.input.text",
+  "bhai tick": "await bpp.standard_lib.input.checkboxes",
 
   "try kar bhai": "try",
   "pakad bhai": "catch",

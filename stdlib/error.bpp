@@ -1,0 +1,7 @@
+bhai ek kaam kar wait(){
+  bol bhai(' ');
+  bol bhai('ye der se aya na, kyunki time out hai');
+}
+agalr bhai(true){}
+
+wait();

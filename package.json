@@ -1,15 +1,31 @@
 {
-  "name": "bhailang",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "bhaiminus",
+  "version": "3.0.0",
+  "main": "./stdlib/console.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "abhinavkodes",
   "license": "ISC",
   "dependencies": {
-    "input": "^1.0.1"
-  }
+    "asciiart-logo": "^0.2.6",
+    "color": "^4.2.1",
+    "colors": "^1.4.0",
+    "input": "^1.0.1",
+    "string-similarity": "^4.0.4",
+    "syntax-error": "^1.4.0"
+  },
+  "bin": {
+    "bhaiminus": "stdlib/console.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/healertrix/bhaillang-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/healertrix/bhaillang-/issues"
+  },
+  "homepage": "https://github.com/healertrix/bhaillang-#readme",
+  "description": ""
 }

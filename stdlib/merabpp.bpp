@@ -49,8 +49,6 @@ bol bhai (looper);
 }
 bol bhai ("done");
 
-//Require a module
-dena bhai('fs','filesystem');
 
 //typeof
 bol bhai(kaisa hai bhai 'string');

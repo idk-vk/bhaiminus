@@ -1,0 +1,66 @@
+ {
+  "0":{
+  "Name": "pakka bhai ye hai",
+  "Defination": "Used to Declare a Constant.",
+  "Js":"const",
+  "Example": "pakka bhai ye hai variable_name = 10;",
+  "Interpretaton" : "const variable_name = 10;"
+},
+  "1":{
+  "Name": "bhai ye hai",
+  "Defination": "Used to Declare a variable.",
+  "Js":"let",
+  "Example": "bhai ye hai variable_name = 10;",
+  "Interpretaton" : "let variable_name = 10;"
+},
+  "2" :{
+  "Name": "bol bhai",
+  "Defination": "function to print in the console.",
+  "Js":"console.log",
+  "Example": "bol bhai('kaise hai bhai?');",
+  "Interpretaton" : "console.log('kaise hai bhai');"
+},
+  "3" :{
+  "Name": "sun bhai",
+  "Defination": "Alternate way to Declare a variable.",
+  "Js":"let",
+  "Example": "sun bhai variable_name = 10;",
+  "Interpretaton" : "let variable_name = 10;"
+},
+  "4" : {
+  "Name": "bhai ek kaam kar",
+  "Defination": "Used to Declare a function.",
+  "Js":"function",
+  "Example": "bhai ek kaam kar(name){\n bol bhai(name) \n}",
+  "Interpretaton" : "function(name){\n console.log(name) \n}"
+},
+  "5" :{
+  "Name": "agar bhai",
+  "Defination": "If statement.",
+  "Js":"if",
+  "Example": "agar bhai(sahi){\n bol bhai('ye sahi hai')}",
+  "Interpretaton" : "if(true){\n console.log('ye sahi hai')}"
+},
+  "6" :{
+  "Name": "ya fir bhai",
+  "Defination": "else If statement.",
+  "Js":"else If",
+  "Example": "ya fir bhai(galat){\n bol bhai('ye galat hai')}",
+  "Interpretaton" : "if(false){\n console.log('ye galat hai')};"
+},
+  "7" :"warna bhai",
+  "8" :"jab tak bhai",
+  "9" :"agla dekh bhai",
+  "10" :"bas kar bhai",
+  "11" :"dena bhai",
+  "12" :"bhai dekh",
+  "13" :"agar",
+  "14" :"nhi to",
+  "15" :"ye kar bhai",
+  "16" :"bhai thoda ruk",
+  "17" :"array bhai",
+  "18" :"bata bhai",
+  "19" :"bhai puch",
+  "20" :"nikal bhai"
+
+}
